@@ -30,4 +30,4 @@ jobs:
 -name: Build app
 run: npx electron-builder --publish never
 env:
-GH_TOKEN: ${{ secrets.GH_TOKEN }}
+PUBLISH_FOR_GITHUB_RELEASE: false
