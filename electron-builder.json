@@ -1,0 +1,15 @@
+{
+  "directories": {
+    "output": "dist"
+  },
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": ["AppImage", "deb", "rpm", "tar.gz"]
+  },
+  "win": {
+    "target": "nsis"
+  },
+  "publish": null
+} 
