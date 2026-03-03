@@ -1,15 +1,27 @@
-"build": {
-  "appId": "com.multiserv.launcher",
-  "productName": "MultiServLauncher",
-  "mac": {
-    "target": "dmg"
-    "category": "public.app-category.games"
+{
+  "name": "multiservlauncher",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-builder"
   },
-  "linux": {
-    "target": ["AppImage", "deb", "rpm", "tar.gz"],
-    "category": "Game"
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
   },
-  "win": {
-    "target": "nsis"
+  "build": {
+    "appId": "com.multiserv.launcher",
+    "productName": "MultiServLauncher",
+    "mac": {
+      "target": "dmg",
+      "category": "public.app-category.games"
+    },
+    "linux": {
+      "target": ["AppImage", "deb", "rpm", "tar.gz"],
+      "category": "Game"
+    },
+    "win": {
+      "target": "nsis"
+    }
   }
-} 
+}
