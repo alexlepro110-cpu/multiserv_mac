@@ -28,6 +28,6 @@ jobs:
       - name: Build app
         run: npx electron-builder 
 -name: Build app
-run: npx electron-builder
+run: npx electron-builder --publish never
 env:
 GH_TOKEN: ${{ secrets.GH_TOKEN }}
