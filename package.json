@@ -2,7 +2,7 @@
   "appId": "com.multiserv.launcher",
   "productName": "MultiServLauncher",
   "mac": {
-    "target": "dmg",
+    "target": "dmg"
     "category": "public.app-category.games"
   },
   "linux": {
